@@ -11,7 +11,7 @@
 }
 
 body {
-    background-image: url('../_login/fotodefundo.jpg');
+    background-image: url('../fotodefundo.jpg');
     background-size: cover;
     background-position-y:-200px ;
 }
