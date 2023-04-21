@@ -1,0 +1,271 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@600&family=Pacifico&family=Titillium+Web:wght@400;900&display=swap');
+body {
+   font-family: arial , sans-serif;
+   background-color: #5f4f3d;
+   color: rgba(0, 0, 0, 1);
+}
+
+div#interface {
+    width: 900px;
+    background-color: #d3cdc3;
+    margin: 20px auto 0px auto;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, .5);
+    border-radius: 10px;
+    padding: 10px 10px 10px 10px;
+}
+p {
+    text-align: justify;
+    text-indent: 35px;
+}
+
+a {
+    color: #796535;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+header#cabecalho {
+    border-bottom: 1px #606060 solid;
+    height: 150px;
+}
+/* formatação do titulo e subtitulo*/
+
+header#cabecalho h1 {
+    font-family: 'DynaPuff', cursive;
+    font-size: 30px;
+    color: #54412e;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, .6);
+    padding: 0px;
+    margin-bottom: 0px;
+    text-align: 10px;
+}
+
+header#cabecalho h2 {
+    font-family: 'DynaPuff', cursive;
+    color: #69523e;
+    font-size: 15pt;
+    padding: 0px;
+    text-align: center;
+}
+/* formatação das imagens png*/
+
+header#cabecalho img#icone {
+    position: absolute;
+    left: 914px;
+    top: 93px;
+    width: 150px;
+    height: 110px;
+}
+
+header#cabecalho img#logo {
+    position: absolute;
+    top: 137px;
+    bottom: 80px;
+    width: 180px;
+    height: 80px;
+}
+
+/* formatação da primeira imagem com legenda*/
+
+figure.foto-legenda {
+    position: relative;
+    border: 8px solid white;
+    box-shadow: 1px 1px 4px black;
+}
+
+figure.foto-legenda img {
+    width: 100%;
+    height: 100%;
+}
+
+figure.foto-legenda figcaption {
+    opacity: 0;
+    position: absolute;
+    top: 0px;
+    background-color:  rgba(0, 0, 0, .4);
+    color: white;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    transition: opacity 1s;
+}
+
+figure.foto-legenda:hover figcaption {
+    opacity: 1;
+}
+
+/* formatação do menu*/
+
+nav#menu {
+    display: block;
+}
+
+nav#menu ul {
+    list-style: none;
+    text-transform: uppercase;
+    position: absolute;
+    top: 0px;
+    left: 380px;
+}
+
+nav#menu li {
+    display: inline-block;
+    border-radius: 10px;
+    background-color: #5f4f3d;
+    padding: 10px;
+    margin: 2px;
+    transition: background-color 1s;
+}
+
+nav#menu li:hover {
+    background-color: #dfdfdf;
+}
+
+nav#menu h1 {
+    display: none;
+}
+
+nav#menu a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+nav#menu a:hover {
+    color: #000000;
+}
+
+section#corpo {
+    display: block;
+    width: 500px;
+    float: left;
+    border-right: 1px solid black;
+    padding-right: 15px;
+}
+
+/* Formatção dos titulos*/
+
+article#cabecalho-artigo h2 {
+    font-size: 12pt;
+    color: white;
+    background-color: #706051;
+    padding: 5px 0px 5px 0px;
+    margin: 10px;
+    border-radius: 6px;
+}
+
+/* Formatação da tabela */
+
+table {
+    width: 90%; 
+    height: 200px; 
+  }
+  
+
+table#tabelaprice {
+    border: 0px solid #85705f;
+    border-spacing: 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table#tabelaprice td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+table#tabelaprice td.ce {
+    color: #ffffff;
+    background-color: #817162;
+    vertical-align: top;
+    font-weight: bold;
+}
+
+table#tabelaprice td.cd {
+    background-color: #cecece;
+}
+
+table#tabelaprice caption span {
+    display: block;
+    float: right;
+    color: black;
+    font-size: 9pt;
+    margin-top: 10px
+}
+
+/* formatação da lateral*/
+
+aside#lateral {
+    display: block;
+    width: 350px;
+    float: right;
+    background-color:#817162;
+    padding: 10px;
+    margin-top: 10px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, .5);
+}
+
+aside#lateral h2 {
+    font-size: 20px;
+    color: #606060;
+    margin-top: 0px;
+}
+
+aside#lateral h2 {
+    margin: 0px;
+    background-color: #706051;
+    font-size: 15pt;
+    color: #ffffff;
+    padding: 5px;
+    border-radius: 6px;
+}
+
+/* formatação da segunda imagem com legenda */
+
+figure.segundafoto {
+    position: relative;
+    border: 8px solid white;
+    box-shadow: 1px 1px 4px black;
+}
+
+figure.segundafoto img {
+    width: 100%;
+    height: 100%;
+}
+
+figure.segundafoto figcaption {
+    opacity: 0;
+    position: absolute;
+    top: 0px;
+    background-color:  rgba(0, 0, 0, .4);
+    color: white;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    transition: opacity 1s;
+}
+
+figure.segundafoto:hover figcaption {
+    opacity: 1;
+}
+
+/*Formatação do rodape*/
+
+footer#rodape {
+    clear: both;
+    border-top: 1px solid black;
+}
+
+footer#rodape p {
+    text-align: center;
+}
+
+
+
